@@ -1,0 +1,74 @@
+<!DOCTYPE HTML>
+<html style="background-color: #e2b0b6">
+	<head>
+		<title>Portfolio Katerina Angjeleska</title>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+		<link rel="stylesheet" href="assets/css/main.css" />
+	</head>
+	<body>
+    <div>
+
+			<nav id="nav">
+				<ul class="container">
+					<li><a href="#top">ÜBER MICH</a></li>
+					<li><a href="#portfolio">PROJEKTE</a></li>
+				</ul>
+			</nav>
+
+			<article id="top" style="background-color: #e2b0b6; padding: 0px">
+				<div>
+                    <video id="meinVideo"width="100%" height="100%" style="object-fit: cover; padding: 0; margin:0;" controls autoplay muted>
+                        <source src="images/UeberMich.mp4" type="video/mp4">
+                    </video>
+				</div>
+			</article>
+
+			<article id="portfolio" >
+				<div class="container">
+					<header>
+						<h2>Projekte</h2>
+						<p style="color: black">Hier sind einige meiner Web-Applikationen, die ich mit dem Framework Vue.js und TypeScript erstellt habe.</p>
+					</header>
+                    <div style="background-color: floralwhite; padding: 20px; border-radius: 5px">
+					<div class="row" style="display: flex; justify-content: center;">
+						<div class="col-4 col-6-medium col-12-small">
+							<article class="box style2">
+								<a href="https://a-katerina.github.io/Adventkalender-Generator-App" target="_blank" class="image featured"><img src="images/Adventkalender-Generator.PNG" alt="" style="box-shadow: 0px 5px 5px rgba(0, 0, 0, 0.2)"/></a>
+								<h3><a href="https://a-katerina.github.io/Adventkalender-Generator-App" target="_blank">Adventkalender-Generator</a></h3>
+								<p>Ein Adventkalender-Generator, den ich im Rahmen meines Pflichtpraktikums als firmeninternes Projekt erstellt habe. Der Adventkalender-Generator erlaubt es Nutzern, einen Kalender anzulegen, zu benennen und die Fenster mit Bildern zu befüllen. Dafür wird einfach die Bild-Adresse in das Input-Feld eingefügt. Es lassen sich nur die Fenster öffnen, bei denen die Tage bereits vergangen sind.</p>
+							</article>
+						</div>
+                        <div class="col-4 col-6-medium col-12-small" style="position: relative;">
+                            <article class="box style2" style="min-height: 100%; position: relative;">
+                                <a href="#" class="image featured"><img src="images/Wetter-App.PNG" alt="" style="box-shadow: 0px 5px 5px rgba(0, 0, 0, 0.2)" /></a>
+                                <h3><a href="#">Wetter-App</a></h3>
+                                <p>Eine Wetter-App, die die OpenWeatherMap-API zur Wetterabfrage und die GeoLocation-API für die Standortabfrage verwendet. Die Hintergrundbilder wurden von der KI DALL-E generiert.</p>
+                                <div style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; background-color: rgba(0, 0, 0, 0.5);">
+                                   <div style="width: 40%; background-color: yellow; margin-top: 15%; box-shadow: 2px 8px 3px rgba(0, 0, 0, 0.5)"><p style="color: black">WORK IN PROGRESS</p></div>
+                                </div>
+                            </article>
+                        </div>
+
+						<div class="col-4 col-6-medium col-12-small">
+							<article class="box style2" style="min-height: 100%">
+								<a href="https://a-katerina.github.io/Drink-Counter-App" target="_blank" class="image featured"><img src="images/Drink-Counter.PNG" alt="" style="box-shadow: 0px 5px 5px rgba(0, 0, 0, 0.2)"/></a>
+								<h3><a href="https://a-katerina.github.io/Drink-Counter-App" target="_blank">Drink-Counter</a></h3>
+								<p>Die erste App, die ich mit Vue.js erstellt habe. Die App ist ein Drink-Counter für den Getränkeautomaten im Firmengebäude. Diese Version der App enthält keinen Mitarbeiter-Login und die Daten werden anstatt auf dem Server im LocalStorage gespeichert.</p>
+							</article>
+						</div>
+                    </div>
+				    </div>
+                </div>
+			</article>
+
+			<script src="assets/js/jquery.min.js"></script>
+			<script src="assets/js/jquery.scrolly.min.js"></script>
+			<script src="assets/js/browser.min.js"></script>
+			<script src="assets/js/breakpoints.min.js"></script>
+			<script src="assets/js/util.js"></script>
+			<script src="assets/js/main.js"></script>
+            <script src="assets/js/intro.js"></script>
+    </div>
+	</body>
+</html>
